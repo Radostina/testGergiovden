@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        League of Legends
+    </title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link href="https://fonts.googleapis.com/css2?family=Trispace:wght@500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="index.css" />
+</head>
+
+<body>
+    <!-- Semantic HTML (za slepiti) -->
+    <nav class="navbar">
+        <div class="container navbar--container">
+            <div>League of Legends</div>
+            <ul class="navbar--items">
+                <li>
+                    <a href="home.html">Home</a>
+                </li>
+                <li>
+                    <a href="news.html">News</a>
+                </li>
+                <li>
+                    <a href="worlds_2020.html">Worlds</a>
+                </li>
+                <li>
+                    <a href="european_teams.html">Teams</a>
+                </li>
+                <li>
+                    <a href="about.html">About</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+    <form class="container">
+        <label for="fname">First name:</label><br>
+        <input type="text" id="fname" name="fname"><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" id="lname" name="lname"><br>
+        <label for="gender">Select a gender</label><br>
+        <input type="radio" id="male" name="gender" value="male">
+        <label for="male">Male</label><br>
+        <input type="radio" id="female" name="gender" value="female">
+        <label for="female">Female</label><br>
+        <input type="radio" id="other" name="gender" value="other">
+        <label for="other">Other</label><br>
+        <label for="LoL">Since which season have you been playing LoL:</label>
+        <select id="LoL" name="LoL">
+        <option value="Season 1" selected>Season 1</option>
+        <option value="Season 2">Season 2</option>
+        <option value="Season 3">Season 3</option>
+        <option value="Season 4">Season 4</option>
+        <option value="Season 5">Season 5</option>
+        <option value="Season 6">Season 6</option>
+        <option value="Season 7">Season 7</option>
+        <option value="Season 8">Season 8</option>
+        </select>
+        <br>
+        <input type="submit">
+    </form>
+</body>
+
+</html>
